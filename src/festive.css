@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Pinyon+Script&display=swap');
+body{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:18px;background:#e9f9ff;color:#4a1a22}
+.font-script{font-family:'Pinyon Script',cursive;font-weight:400}
+.font-display{font-family:'Cormorant Garamond',Georgia,serif;font-weight:700}
+.panel,.glass{background:#ffffffc9;border:1px solid #c8302f1f;border-radius:26px;backdrop-filter:blur(10px);box-shadow:0 24px 60px #2d5a7a26,inset 0 1px 0 #fff}
+.btn-primary{background:linear-gradient(180deg,#dc4543,#b32426);color:#fff4e0;font-weight:700;border-radius:999px;padding:.8rem 2rem;font-size:1.1rem;box-shadow:inset 0 1px 0 #ffffff55,0 10px 26px #b3242655;transition:transform .25s,box-shadow .25s,opacity .25s}
+.btn-primary:hover:not(:disabled){transform:translateY(-2px);box-shadow:inset 0 1px 0 #ffffff55,0 16px 34px #b3242677}
+.btn-primary:disabled{opacity:.4;cursor:not-allowed}
+.btn-ghost{color:#b32426;border:1px solid #c8302f55;border-radius:999px;padding:.4rem 1.2rem;font-weight:700;background:#ffffffb8;transition:background .25s,border-color .25s}
+.btn-ghost:hover{background:#fff;border-color:#c8302f}
+.field{width:100%;background:#fff;border:1px solid #c8302f33;border-radius:14px;padding:.65rem 1rem;color:#4a1a22;outline:none;font:inherit;transition:border-color .2s,box-shadow .2s}
+.field:focus{border-color:#c8302f;box-shadow:0 0 0 3px #c8302f22}
+.field::placeholder{color:#4a1a2299}
+.flame{transform-box:fill-box;transform-origin:50% 100%;animation:flick 2.4s ease-in-out infinite;filter:drop-shadow(0 0 6px #ff9d2e)}
+@keyframes flick{0%,100%{transform:scale(1,1)}50%{transform:scale(.92,1.1) rotate(2deg)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
